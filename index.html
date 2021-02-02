@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piano</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class="keyboard">
+        <div data-key="90" class="key white f">
+            <kbd>Z</kbd>
+        </div>
+        <div data-key="88" class="key white e">
+            <kbd>X</kbd>
+        </div>
+        <div data-key="67" class="key black ds">
+            <kbd>C</kbd>
+        </div>
+        <div data-key="86" class="key white d">
+            <kbd>V</kbd>
+        </div>
+        <div data-key="66" class="key black cs">
+            <kbd>B</kbd>
+            <div class="sound"></div>
+        </div>
+        <div data-key="78" class="key white c">
+            <kbd>N</kbd>
+        </div>
+        <div data-key="77" class="key white b">
+            <kbd>M</kbd>
+        </div>
+        <div data-key="188" class="key black as">
+            <kbd>,</kbd>
+        </div>
+        <div data-key="190" class="key white a">
+            <kbd>.</kbd>
+        </div>
+        <div data-key="191" class="key black gs">
+            <kbd>/</kbd>
+        </div>
+        <div data-key="97" class="key white g">
+            <kbd>1</kbd>
+        </div>
+        <div data-key="98" class="key black fs">
+            <kbd>2</kbd>
+        </div>
+        <div data-key="99" class="key white f">
+            <kbd>3</kbd>
+        </div>
+        <div data-key="65" class="key white e">
+            <kbd>A</kbd>
+        </div>
+        <div data-key="87" class="key black ds">
+            <kbd>W</kbd>
+        </div>
+        <div data-key="83" class="key white d">
+            <kbd>S</kbd>
+        </div>
+        <div data-key="69" class="key black cs">
+            <kbd>E</kbd>
+        </div>
+        <div data-key="68" class="key white c">
+            <kbd>D</kbd>
+        </div>
+        <div data-key="70" class="key white b">
+            <kbd>F</kbd>
+        </div>
+        <div data-key="84" class="key black as">
+            <kbd>T</kbd>
+        </div>
+        <div data-key="71" class="key white a">
+            <kbd>G</kbd>
+        </div>
+        <div data-key="89" class="key black gs">
+            <kbd>Y</kbd>
+        </div>
+        <div data-key="72" class="key white g">
+            <kbd>H</kbd>
+        </div>
+        <div data-key="85" class="key black fs">
+            <kbd>U</kbd>
+        </div>
+        <div data-key="74" class="key white f">
+            <kbd>J</kbd>
+        </div>
+        <div data-key="75" class="key white e">
+            <kbd>K</kbd>
+        </div>
+        <div data-key="79" class="key black ds">
+            <kbd>O</kbd>
+        </div>
+        <div data-key="76" class="key white d">
+            <kbd>L</kbd>
+        </div>
+        <div data-key="80" class="key black cs">
+            <kbd>P</kbd>
+        </div>
+        <div data-key="186" class="key white c">
+            <kbd>;</kbd>
+        </div>
+        <div data-key="222" class="key white b">
+            <kbd>'</kbd>
+        </div>
+        <div data-key="221" class="key black as">
+            <kbd>]</kbd>
+        </div>
+        <div data-key="100" class="key white a">
+            <kbd>4</kbd>
+        </div>
+        <div data-key="104" class="key black gs">
+            <kbd>8</kbd>
+        </div>
+        <div data-key="101" class="key white g">
+            <kbd>5</kbd>
+        </div>
+        <div data-key="105" class="key black fs">
+            <kbd>9</kbd>
+        </div>
+        <div data-key="102" class="key white f">
+            <kbd>6</kbd>
+        </div>
+        <div data-key="107" class="key white e">
+            <kbd>+</kbd>
+        </div>
+    </div>
+
+    <audio data-key="90" src="assets/027.wav"></audio>
+    <audio data-key="88" src="assets/028.wav"></audio>
+    <audio data-key="67" src="assets/029.wav"></audio>
+    <audio data-key="86" src="assets/030.wav"></audio>
+    <audio data-key="66" src="assets/031.wav"></audio>
+    <audio data-key="78" src="assets/032.wav"></audio>
+    <audio data-key="77" src="assets/033.wav"></audio>
+    <audio data-key="188" src="assets/034.wav"></audio>
+    <audio data-key="190" src="assets/035.wav"></audio>
+    <audio data-key="191" src="assets/036.wav"></audio>
+    <audio data-key="97" src="assets/037.wav"></audio>
+    <audio data-key="98" src="assets/038.wav"></audio>
+    <audio data-key="99" src="assets/039.wav"></audio>
+    <audio data-key="65" src="assets/040.wav"></audio>
+    <audio data-key="87" src="assets/041.wav"></audio>
+    <audio data-key="83" src="assets/042.wav"></audio>
+    <audio data-key="69" src="assets/043.wav"></audio>
+    <audio data-key="68" src="assets/044.wav"></audio>
+    <audio data-key="70" src="assets/045.wav"></audio>
+    <audio data-key="84" src="assets/046.wav"></audio>
+    <audio data-key="71" src="assets/047.wav"></audio>
+    <audio data-key="89" src="assets/048.wav"></audio>
+    <audio data-key="72" src="assets/049.wav"></audio>
+    <audio data-key="85" src="assets/050.wav"></audio>
+    <audio data-key="74" src="assets/051.wav"></audio>
+    <audio data-key="75" src="assets/052.wav"></audio>
+    <audio data-key="79" src="assets/053.wav"></audio>
+    <audio data-key="76" src="assets/054.wav"></audio>
+    <audio data-key="80" src="assets/055.wav"></audio>
+    <audio data-key="186" src="assets/056.wav"></audio>
+    <audio data-key="222" src="assets/057.wav"></audio>
+    <audio data-key="221" src="assets/058.wav"></audio>
+    <audio data-key="100" src="assets/059.wav"></audio>
+    <audio data-key="104" src="assets/060.wav"></audio>
+    <audio data-key="101" src="assets/061.wav"></audio>
+    <audio data-key="105" src="assets/062.wav"></audio>
+    <audio data-key="102" src="assets/063.wav"></audio>
+    <audio data-key="107" src="assets/064.wav"></audio>
+
+    <script src="js/index.js"></script>
+</body>
+
+</html>
